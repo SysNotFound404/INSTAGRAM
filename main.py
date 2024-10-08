@@ -10,4 +10,4 @@ try:
 except ImportError:
     print("pycryptodome tidak ditemukan. Menginstal...")
     install("pycryptodome")
-import Instagram
+from Instagram import Instagram
